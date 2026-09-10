@@ -124,26 +124,24 @@ test passed.
 
 I want this stated plainly rather than left to be inferred.
 
-**The system this came from is mine.** Atlas is a platform I have been building
-and maintaining, and the engineering judgement in it — the architecture, the
-decisions about what a component must refuse to do, the discipline this module
-demonstrates — is work I did.
+**The system this came from is mine.** Atlas is a real, working platform I have
+been building and maintaining, and the engineering judgement in it — the
+architecture, the decisions about what a component must refuse to do, the
+discipline this module demonstrates — is work I did.
 
-**This repository is not that code.** It was written with **Claude Code
-(Anthropic)**, working from my Atlas source and my design decisions, to produce
-a smaller self-contained version that can be read and judged in twenty minutes
-without exposing the private system. Claude wrote most of the code here, wrote
-the tests, ran them, and found several real bugs in the process — those are
-named in the sections above. I decided what to extract, what to leave out, and
-which properties the reduced version had to preserve. The commits carry
-`Co-Authored-By: Claude Opus 5`.
+**This smaller version was built with Claude Code (Anthropic).** Working from my
+Atlas source and my design decisions, it helped me produce a reduced,
+self-contained version that can be read and judged in twenty minutes without
+exposing the private system, and helped build and run the tests around it. I
+decided what to extract, what to leave out, and which properties the reduced
+version had to preserve. The process surfaced several genuine bugs along the
+way, and those are named in the sections above rather than quietly fixed. The
+commits carry `Co-Authored-By: Claude Opus 5`.
 
 **Why say so.** Two reasons. It is true, and I would rather be judged on what I
 actually did than on an impression I allowed to stand. And it sets the right
-expectation about how I work: I design systems, decide what they must guarantee,
-and use the tools available to get them built and verified. I am not claiming to
-have typed every line here unaided, and I would rather you know that before we
-talk than after.
+expectation about how I work: I design systems, decide what they have to
+guarantee, and use the tools available to get them built and verified.
 
 If you want to test the understanding rather than the authorship, ask me about
 any decision documented above. Every one of them is a choice I can defend, and
